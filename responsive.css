@@ -1,0 +1,190 @@
+/* pc */
+@media (min-width:1081px){
+    
+}
+
+/* tab */
+@media (max-width:1080px){
+    /* header */
+    header{
+        background-color: white;
+        z-index: 10;
+        position: fixed;
+    }
+    
+    .header-hamburger{
+        height: 21px;
+        width: 30px;
+        z-index: 10;
+        cursor: pointer;
+        display: block;
+        position: relative;
+    }
+    
+    .hamburger-line{
+        background-color: black;
+        height: 3px;
+        width: 100%;
+        display: block;
+        border-radius: 10px;
+        top: 50%;
+        position: absolute;
+    }
+    
+    .hamburger-line:first-child{
+        top: 0;
+    }
+    
+    .hamburger-line:last-child{
+        top: 100%;
+    }
+    
+    /* 課題１では範囲外 */
+    .nav-list{
+        display: none;
+    }
+    
+    /* top */
+    main{
+        padding-top: 60px;
+    }
+    
+}
+
+@media(max-width:1024px){
+    .about-container{
+        flex-direction: column;
+    }
+    
+    .about-m{
+        margin-bottom: 0;
+        width: 100%;
+    }
+    
+    .about-btn{
+        margin-top: 40px;
+    }
+}
+
+@media (min-width:768px){
+    a{
+        transition: opacity;
+        transition-duration: 0.2s;
+    }
+    
+    a:hover{
+        opacity: 0.8;
+    }
+}
+
+/* sp */
+@media (max-width:767px){
+ /* header */
+    header{
+        padding: 15px 0;
+    }
+    
+    .header-container{
+        margin: 0 20px;
+        max-width: 100%;
+    }
+    
+    .h-sp{
+        display: block;
+    }
+    
+    .h-pc{
+        display: none;
+    }
+
+
+/* main */
+    main{
+        padding-top: 52px;
+    }
+    
+    /* top */
+    
+    .top{
+        background-image: none;
+        padding: 0 0 35px;
+    }
+    
+    .bg-image{
+        display: block;
+    }
+    
+    .top-container{
+        margin-top: -45vw;
+        max-width: none;
+        padding: 0 20px;
+    }
+    
+    .top-content{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+    .top-message h1{
+        font-size: 25px;
+        line-height: 36px;
+    }
+    
+    .top-image{
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .top-image img{
+        width: 27.5%;
+    }
+    
+    .top-image img:nth-child(2){
+        width: 40%;
+    }
+    
+    .top-btn a{
+        font-size: 14px;
+    }
+    
+    .free{
+        margin-right: 0;
+        width: 100%;
+    }
+    
+    .data{
+        display: none;
+    }
+    
+    /* about */
+    .about{
+        padding: 30px 0;
+    }
+    
+    .about-container{
+        max-width: none;
+        padding: 0 20px;
+    }
+    
+    .about-m h1{
+        font-size: 30px;
+        text-align: center;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+    
+    .about-m br{
+        display: block;
+    }
+    
+    .about-m h1 span{
+        font-size: 33px;
+    }
+    
+    .about-m p{
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
