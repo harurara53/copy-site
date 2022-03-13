@@ -146,6 +146,7 @@ main{
 
 .bg-image{
     display: none;
+    width: 100%;
 }
 
 .top-container{
